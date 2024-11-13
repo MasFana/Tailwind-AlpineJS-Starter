@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test</title>
+  <script type="module" src="index.js"></script>
+</head>
+
+<style>
+  [x-cloak] {
+    display: none !important;
+  }
+</style>
+
+<body>
+  <div x-data="{ count: 0 }" class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h1 class="text-2xl font-bold mb-4">Ngitung</h1>
+      <div class="flex items-center space-x-4">
+        <button @click="count--" class="px-4 py-2 bg-red-500 text-white rounded">-</button>
+        <span x-text="count" class="text-2xl"></span>
+        <button @click="count++" class="px-4 py-2 bg-green-500 text-white rounded">+</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
