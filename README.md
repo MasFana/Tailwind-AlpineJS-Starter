@@ -13,7 +13,8 @@ This is a starter template using **Tailwind CSS**, **Alpine.js**, and **Vite** f
 ### Prerequisites
 
 Ensure you have [Node.js](https://nodejs.org/) installed.
-
+[Tailwind Docs](https://tailwindcss.com/docs/installation)
+[AlpineJS Docs](https://alpinejs.dev/start-here)
 ### Installation
 
 1. **Clone the repository:**
